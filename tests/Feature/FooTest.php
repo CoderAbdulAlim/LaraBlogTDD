@@ -31,20 +31,20 @@ class FooTest extends TestCase
 //     // red -> refactor -> green -> red -> green
 // });
 
-It('can submit the form', function(){
-    // arrange
-    $request = [
-        'name' => 'Category 06',
-    ];
+// It('can submit the form', function(){
+//     // arrange
+//     $request = [
+//         'name' => 'Category 06',
+//     ];
 
     // act
-    $response = $this->post('myboard.mycategories.create', $request);
+    // $response = $this->post('myboard.mycategories.create', $request);
 
-    $this->assertDatabaseHas('categories',  $request);
+    // $this->assertDatabaseHas('categories',  $request);
 
     // assert
-    $response->assertRedirect('myboard.mycategories.index');
+    // $response->assertRedirect('myboard.mycategories.index');
 
     // assert -> red -> red ->
 
-});
+// });

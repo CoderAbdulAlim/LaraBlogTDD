@@ -35,7 +35,7 @@
                         <!-- Submit Button -->
                         <div class="flex items-center justify-end mt-4">
                             <x-primary-button class="ms-4">
-                                {{ __('Submit') }}
+                                {{ __('Submit New Category') }}
                             </x-primary-button>
                         </div>
 

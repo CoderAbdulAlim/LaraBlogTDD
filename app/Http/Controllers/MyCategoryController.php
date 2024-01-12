@@ -30,6 +30,8 @@ class MyCategoryController extends Controller
 
         $this->validate($request, [
             'name' => 'required',
+        ],[
+            'name.required' => 'Please fill it up!'
         ]);
 
         Category::create([
